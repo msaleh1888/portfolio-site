@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Mahmoud Saleh | AI Engineer & Cloud-AI Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio of Mahmoud Saleh, AI Engineer and Cloud-AI Developer specializing in Azure, Machine Learning, MLOps, and modern Python APIs." />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <div class="nav-left">
+                <a href="#top" class="logo">MS</a>
+                <span class="logo-text">Mahmoud Saleh</span>
+            </div>
+            <div class="nav-right">
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#certifications">Learning</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <section class="hero" id="top">
+            <div class="hero-text">
+                <h1>AI Engineer &amp; Cloud-AI Developer</h1>
+                <p class="hero-subtitle">
+                    I design and build end-to-end AI systems: training models in PyTorch,
+                    deploying them on Azure, and serving them through clean, production-style APIs.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+                <div class="hero-meta">
+                    <span>Cairo, Egypt · Open to Remote</span>
+                    <span>Python · Azure · ML · FastAPI · Docker</span>
+                </div>
+            </div>
+            <div class="hero-side">
+                <div class="hero-card">
+                    <h2>What I do</h2>
+                    <ul>
+                        <li>✅ Train and fine-tune deep learning models in PyTorch</li>
+                        <li>✅ Serve ML models via FastAPI microservices</li>
+                        <li>✅ Deploy pipelines on Azure ML &amp; Azure Functions</li>
+                        <li>✅ Build RAG systems with vector databases &amp; LLMs</li>
+                    </ul>
+                    <div class="hero-links">
+                        <a href="https://github.com/msaleh1888" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://www.linkedin.com/in/mahmoud-saleh-ba57886a/" target="_blank" rel="noopener">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="section-header">
+                <h2>Core Skills</h2>
+                <p>Applied machine learning, cloud deployment, and production-ready Python services.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="card">
+                    <h3>AI &amp; Machine Learning</h3>
+                    <ul>
+                        <li>PyTorch, torchvision</li>
+                        <li>CNNs, transfer learning, classification</li>
+                        <li>Classical ML (K-Means, feature engineering)</li>
+                        <li>Model evaluation, training workflows</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Cloud &amp; MLOps</h3>
+                    <ul>
+                        <li>Azure ML (Batch Endpoints, model registry)</li>
+                        <li>Azure Functions (serverless APIs)</li>
+                        <li>Azure Document Intelligence (invoice extraction)</li>
+                        <li>Infrastructure-as-code (YAML for jobs &amp; endpoints)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>APIs &amp; Backend</h3>
+                    <ul>
+                        <li>FastAPI for ML and RAG microservices</li>
+                        <li>REST API design, health endpoints</li>
+                        <li>Docker &amp; Docker Compose for deployment</li>
+                        <li>Environment management, configuration, logging</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Data &amp; Engineering Background</h3>
+                    <ul>
+                        <li>Python, SQL, Pandas, ETL workflows</li>
+                        <li>10+ years in embedded &amp; automotive software</li>
+                        <li>System design &amp; requirements analysis</li>
+                        <li>Clean code, documentation, reproducible repos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section section-alt">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>
+                    Selected projects that show how I combine ML modeling, Azure deployment,
+                    and production-grade FastAPI services.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Azure Customer Segmentation -->
+                <article class="card project-card">
+                    <h3>Azure Customer Segmentation Pipeline</h3>
+                    <p class="project-tag">K-Means · Azure ML Batch Endpoint · Azure Data Factory</p>
+                    <p>
+                        Built an end-to-end customer clustering engine on Azure that segments
+                        online retail customers using K-Means and a production-grade batch
+                        inference pipeline.
+                    </p>
+                    <ul class="project-points">
+                        <li>Feature engineering for recency, frequency, monetary value, and more</li>
+                        <li>Model training &amp; registration in Azure ML</li>
+                        <li>YAML-based Batch Endpoint &amp; deployment definitions for reproducible infra</li>
+                    </ul>
+                    <div class="project-footer">
+                        <span class="project-label">Cloud ML Pipeline</span>
+                        <div class="project-links">
+                            <a href="https://github.com/msaleh1888/azure-ml-customer-segmentation" target="_blank" rel="noopener">View on GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Azure Serverless Invoice Extraction -->
+                <article class="card project-card">
+                    <h3>Azure Serverless Invoice Extraction API</h3>
+                    <p class="project-tag">Azure Functions · Document Intelligence · CI/CD</p>
+                    <p>
+                        Developed a serverless API that accepts PDF invoices and returns
+                        normalized JSON with header fields, totals, vendors, and line items using
+                        Azure Document Intelligence.
+                    </p>
+                    <ul class="project-points">
+                        <li>HTTP-triggered Azure Function with a dedicated extraction service layer</li>
+                        <li>Normalization of Azure DI output into clean, consistent JSON</li>
+                        <li>GitHub Actions pipeline with tests and post-deploy health checks</li>
+                    </ul>
+                    <div class="project-footer">
+                        <span class="project-label">Document AI</span>
+                        <div class="project-links">
+                            <a href="https://github.com/msaleh1888/azure-serverless-invoice-extraction" target="_blank" rel="noopener">View on GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: RAG Microservice -->
+                <article class="card project-card">
+                    <h3>RAG Microservice with FastAPI &amp; ChromaDB</h3>
+                    <p class="project-tag">FastAPI · SentenceTransformers · ChromaDB · Grok</p>
+                    <p>
+                        Implemented a Retrieval-Augmented Generation microservice that ingests
+                        TXT/PDF documents, indexes them into ChromaDB, and answers questions
+                        using embeddings and the Grok LLM via a FastAPI `/ask` endpoint.
+                    </p>
+                    <ul class="project-points">
+                        <li>Offline ingestion pipeline for chunking, embedding, and vector storage</li>
+                        <li>Online query pipeline with retrieval + grounded answer generation</li>
+                        <li>Dockerized service with environment-based LLM configuration</li>
+                    </ul>
+                    <div class="project-footer">
+                        <span class="project-label">LLM / RAG</span>
+                        <div class="project-links">
+                            <a href="https://github.com/msaleh1888/rag-llm-fastapi-microservice" target="_blank" rel="noopener">View on GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4: Intel Natural Scenes API -->
+                <article class="card project-card">
+                    <h3>Intel Natural Scenes API</h3>
+                    <p class="project-tag">FastAPI · PyTorch · Docker</p>
+                    <p>
+                        Built a FastAPI microservice that exposes a fine-tuned ResNet18 model
+                        for 6-class scene classification, returning predictions and confidence
+                        scores for uploaded images.
+                    </p>
+                    <ul class="project-points">
+                        <li>`/predict` endpoint for inference and `/health` for monitoring</li>
+                        <li>Clean separation of API, model loading, and preprocessing utilities</li>
+                        <li>Fully containerized with Docker for cloud deployment</li>
+                    </ul>
+                    <div class="project-footer">
+                        <span class="project-label">Inference API</span>
+                        <div class="project-links">
+                            <a href="https://github.com/msaleh1888/intel-natural-scenes-api" target="_blank" rel="noopener">View on GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5: Intel Natural Scenes Classifier -->
+                <article class="card project-card">
+                    <h3>Intel Natural Scenes Classifier</h3>
+                    <p class="project-tag">PyTorch · ResNet18 · Transfer Learning</p>
+                    <p>
+                        Trained a ResNet18-based classifier on the Intel Natural Scenes dataset,
+                        using a two-phase transfer learning strategy to adapt ImageNet features
+                        to 6 outdoor scene categories.
+                    </p>
+                    <ul class="project-points">
+                        <li>Phase 1: train only the classification head with frozen backbone</li>
+                        <li>Phase 2: fine-tune the last ResNet block with differential learning rates</li>
+                        <li>Exported a compact checkpoint used directly by the API project</li>
+                    </ul>
+                    <div class="project-footer">
+                        <span class="project-label">Model Training</span>
+                        <div class="project-links">
+                            <a href="https://github.com/msaleh1888/intel-natural-scenes-resnet18" target="_blank" rel="noopener">View on GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6: Flower Image Classifier -->
+                <article class="card project-card">
+                    <h3>Flower Image Classifier</h3>
+                    <p class="project-tag">PyTorch · VGG/ResNet · CLI Tools</p>
+                    <p>
+                        Implemented a transfer-learning-based classifier for flower species,
+                        with scripts for training, saving checkpoints, and running predictions
+                        from the command line or a demo notebook.
+                    </p>
+                    <ul class="project-points">
+                        <li>Configurable backbone (VGG16 or ResNet18) and classifier head</li>
+                        <li>Training &amp; prediction scripts with GPU/CPU support</li>
+                        <li>Top-K prediction visualization in a polished demo notebook</li>
+                    </ul>
+                    <div class="project-footer">
+                        <span class="project-label">Deep Learning</span>
+                        <div class="project-links">
+                            <a href="https://github.com/msaleh1888/image-classifier" target="_blank" rel="noopener">View on GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section">
+    <div class="section-header">
+        <h2>Experience</h2>
+        <p>Strong engineering background with leadership roles in embedded systems, now combined with applied AI and cloud development.</p>
+    </div>
+
+    <div class="timeline">
+
+        <!-- AI Engineer / Cloud-AI Developer -->
+        <div class="timeline-item">
+            <h3>AI Engineer / Cloud-AI Developer</h3>
+            <p class="timeline-meta">2024 – 2025</p>
+            <ul>
+                <li>Designed and deployed end-to-end AI systems: ML models, FastAPI microservices, Azure Functions, and batch pipelines.</li>
+                <li>Developed LLM/RAG microservices using FastAPI, ChromaDB, SentenceTransformers, and Groq.</li>
+                <li>Built Azure ML customer segmentation pipeline with feature engineering, model registry, and batch endpoints.</li>
+                <li>Created serverless invoice extraction API using Azure Document Intelligence with CI/CD, testing, and monitoring.</li>
+                <li>Developed PyTorch deep learning models and Dockerized inference services for production deployment.</li>
+            </ul>
+        </div>
+
+        <!-- Garrett Advancing Motion -->
+        <div class="timeline-item">
+            <h3>Software Technical Leader – Fuel Cell Compressors</h3>
+            <p class="timeline-meta">Garrett Advancing Motion · Prague · Jun 2024 – Feb 2025</p>
+            <ul>
+                <li>Technical leader for the inverter software team developing embedded software for Fuel Cell Compressors.</li>
+                <li>Owned development, integration, testing, and release of embedded software according to ASPICE and ISO 26262.</li>
+                <li>Led software architecture, requirements, and feature planning, working closely with global OEM customers.</li>
+                <li>Managed issue analysis, debugging, and resolution; coordinated cross-functional technical discussions.</li>
+                <li>Supported RFI/RFQ phases by estimating workload, defining scope, and identifying technical risks.</li>
+            </ul>
+        </div>
+
+        <!-- Valeo -->
+        <div class="timeline-item">
+            <h3>Senior Principal / Senior MBD Engineer – Electrified Mobility & Wiper Systems</h3>
+            <p class="timeline-meta">Valeo · Cairo · 2014 – May 2024</p>
+            <ul>
+                <li>Technical leader for Electrified Mobility software (i-StARS, 48V GMG): model-based design, code generation, testing.</li>
+                <li>Designed & validated embedded software using Simulink, Embedded Coder, and MIL/SIL workflows.</li>
+                <li>Certified MBD reviewer: ensured process compliance, performed quality reviews, and assessed technical risks.</li>
+                <li>Led software development cycles for Adaptive Wiper Systems: planning, requirement analysis, issue tracking, and audits.</li>
+                <li>Implemented safety requirements and testing for ISO 26262 ASIL A–C compliance across multiple projects.</li>
+                <li>Developed automation tools (MATLAB/Simulink) that reduced development effort and improved debugging efficiency.</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+        <!-- Learning / Certifications -->
+        <section id="certifications" class="section section-alt">
+            <div class="section-header">
+                <h2>Certifications &amp; Learning</h2>
+                <p>Structured learning paths that support my shift into AI &amp; cloud engineering.</p>
+            </div>
+
+            <div class="certs-grid">
+                <div class="card">
+                    <h3>Formal Programs</h3>
+                    <ul>
+                        <li>Google Data Analytics Professional Certificate</li>
+                        <li>Udacity AI Programming with Python Nanodegree</li>
+                        <li>AWS Cloud Fundamentals</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Self-Directed Learning</h3>
+                    <ul>
+                        <li>Azure ML, Azure Functions &amp; Azure Document Intelligence</li>
+                        <li>FastAPI, Docker, vector databases, and LLM tooling</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <p>Open to remote roles, freelance work, and collaborations on AI/ML projects.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="card">
+                    <h3>Get in touch</h3>
+                    <p>
+                        If you're looking for someone to design, build, and deploy ML systems and
+                        AI-powered APIs, I'd be happy to connect.
+                    </p>
+                    <ul class="contact-list">
+                        <li><strong>Email:</strong> <a href="mailto:mahmoud.saleh@email.com">mahmoud.saleh@email.com</a></li>
+                        <li><strong>Location:</strong> Cairo, Egypt · Open to remote</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Links</h3>
+                    <ul class="contact-list">
+                        <li><a href="https://github.com/msaleh1888" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/mahmoud-saleh-ba57886a/" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <!-- Later you can add a direct CV link here -->
+                        <!-- <li><a href="#" target="_blank" rel="noopener">Download CV</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="year"></span> Mahmoud Saleh · AI Engineer &amp; Cloud-AI Developer</p>
+    </footer>
+
+    <script>
+        // Simple script to keep the year updated
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
